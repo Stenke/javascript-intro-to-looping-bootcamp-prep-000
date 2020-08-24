@@ -16,7 +16,7 @@ function forLoop(array) {
     return 'done'
   }
   function doWhileLoop(num) {
-    num = get
+    num = Math.floor(Math.random() * 10);  
     let i = 0;
     function incrementVariable() {
       i = i + 1;
