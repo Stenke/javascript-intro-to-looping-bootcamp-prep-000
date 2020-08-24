@@ -21,4 +21,8 @@ function forLoop(array) {
   }
   do {
     console.log("I run once regardless.");
-  } while (inc)
+  } while (incrementVariable < num); {
+   function incrementVariable() {
+    i = i + 1;
+    return i;
+   }
