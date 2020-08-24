@@ -20,8 +20,8 @@ function forLoop(array) {
     function incrementVariable() {
       i = i + 1;
       return i;
-     }
-  do {
+    }
+    do {
     console.log("I run once regardless.");
   } while (incrementVariable < num);
   }
