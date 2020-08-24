@@ -21,7 +21,9 @@ function forLoop(array) {
       return i;
  }
   function doWhileLoop(num) {
-    
+    var num = function (pow) {
+  	return Math.floor(Math.random() * pow);
+    }
     do {
     console.log("I run once regardless.");
     } while (incrementVariable < num);
