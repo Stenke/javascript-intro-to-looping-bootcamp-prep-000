@@ -16,6 +16,7 @@ function forLoop(array) {
     return 'done'
   }
   function doWhileLoop(num) {
+    num = get
     let i = 0;
     function incrementVariable() {
       i = i + 1;
