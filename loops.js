@@ -15,26 +15,8 @@ function forLoop(array) {
     }
     return 'done'
   }
- let i = 0;
- function incrementVariable() {
-      i = i + 1;
-      return i;
- }
-  function doWhileLoop(num) {
-    num = function (pow) {
-  	return Math.floor(Math.random() * pow);
-    }
-  	let i = 0;
-    function incrementVariable() {
-      i = i + 1;
-      return i;
-    }
-    do {
-    console.log("I run once regardless.");
-    } while (incrementVariable < num);
-    return incrementVariable;
-  }
-  var i = 0
+ 
+var i = 0
 function incrementVariable() {
   i = i + 1;
   return i;
@@ -44,3 +26,4 @@ function doWhileLoop(integer){
   do{
     console.log("I run once regardless.")
   } while (incrementVariable() <= integer)
+}
