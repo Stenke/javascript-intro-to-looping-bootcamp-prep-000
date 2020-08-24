@@ -15,13 +15,12 @@ function forLoop(array) {
     }
     return 'done'
   }
-  function doWhileLoop(num) {
-    num = Math.floor(Math.random() * 10);  
-    let i = 0;
-    function incrementVariable() {
+ let i = 0;
+ function incrementVariable() {
       i = i + 1;
       return i;
-    }
+ }
+  function doWhileLoop(num) {
     do {
     console.log("I run once regardless.");
     } while (incrementVariable < num);
